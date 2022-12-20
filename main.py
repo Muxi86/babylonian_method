@@ -8,4 +8,11 @@ def main(S, d):
     Returns:
         float: result
     '''
-    return
+    a = (S - d**2)/2 * d
+    b = a + d
+    x = b - a ** 2 / a * b
+
+    return x
+S = int(input("S ="))
+d = int(input("d ="))
+print(main(S, d))
