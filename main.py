@@ -5,6 +5,4 @@ def main(S, d):
     x = b - (a ** 2) / (2 * b)
 
     return float(x)
-S = int(input("S ="))
-d = int(input("d ="))
-print(main(S, d))
+print(main(26, 5))
